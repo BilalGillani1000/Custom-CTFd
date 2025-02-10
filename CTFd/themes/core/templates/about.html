@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block stylesheets %}
+<style>
+    .about-container {
+        padding: 2rem;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+    }
+    .logo {
+        max-width: 150px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron text-center">
+    <div class="container">
+        <h1>About DevCon'25</h1>
+        <p>Organized by <strong>Siganalianz Security Hub (SSH)</strong></p>
+    </div>
+</div>
+
+<div class="container about-container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Who We Are</h2>
+            <p><strong>Siganalianz Security Hub (SSH)</strong> is a dedicated cybersecurity society focused on educating and challenging security enthusiasts through Capture The Flag (CTF) competitions.</p>
+            <p>Our goal is to provide a platform for students and professionals to enhance their penetration testing, cryptography, reverse engineering, and forensics skills.</p>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="/themes/core/static/img/android-chrome-512x512.png" class="logo" alt="SSH Logo">
+        </div>
+    </div>
+    
+    <hr>
+    
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Event Details</h2>
+            <ul>
+                <li>🔐 Realistic cybersecurity challenges</li>
+                <li>📅 Duration: 10 hours</li>
+                <li>💡 Categories: Web, Forensics, Crypto, Cloud, Reverse Engineering</li>
+                <li>🎖 Prize for the Winner </li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/signalianz_security_hub">SSH Official Insta</a></li>
+                <li><a href="https://discord.com/channels/998267052898926602/998267052898926604">Join our Discord</a></li>
+                <li><a href="mailto:sigsechub@gmail.com">Contact us on Gmail</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    console.log("About page loaded successfully");
+</script>
+{% endblock %}
