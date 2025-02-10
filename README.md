@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ![](https://github.com/CTFd/CTFd/blob/master/CTFd/themes/core/static/img/logo.png?raw=true)
 
 ![CTFd MySQL CI](https://github.com/CTFd/CTFd/workflows/CTFd%20MySQL%20CI/badge.svg?branch=master)
@@ -88,3 +89,6 @@ OAUTH_CLIENT_SECRET = None
 - Logo by [Laura Barbera](http://www.laurabb.com/)
 - Theme by [Christopher Thompson](https://github.com/breadchris)
 - Notification Sound by [Terrence Martin](https://soundcloud.com/tj-martin-composer)
+=======
+# Custom-CTFd
+>>>>>>> origin/main
